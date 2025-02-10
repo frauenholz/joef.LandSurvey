@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes"?>
+<Dataset1 xmlns="http://joef.com/parcelDataset.xsd">
+  <_parcel_ d2p1:ID="1" d2p1:ownerName="Frauenholz" d2p1:lotBlock="436-L-20" xmlns:d2p1="http://joef.com/parcelDataset.xsd" />
+  <_parcel_ d2p1:ID="2" d2p1:ownerName="Toshok" d2p1:lotBlock="436-R-150" xmlns:d2p1="http://joef.com/parcelDataset.xsd" />
+  <_parcel_ d2p1:ID="3" d2p1:ownerName="Nable" d2p1:lotBlock="436-K-25" xmlns:d2p1="http://joef.com/parcelDataset.xsd" />
+  <_parcel_ d2p1:ID="4" d2p1:ownerName="Francioni" d2p1:lotBlock="436-G-50" xmlns:d2p1="http://joef.com/parcelDataset.xsd" />
+  <_parcel_ d2p1:ID="5" d2p1:ownerName="M Frauenholz" d2p1:lotBlock="436-L-110" xmlns:d2p1="http://joef.com/parcelDataset.xsd" />
+  <_parcel_ d2p1:ID="6" d2p1:ownerName="Siddiqui" d2p1:lotBlock="436-L-100" xmlns:d2p1="http://joef.com/parcelDataset.xsd" />
+  <_parcel_ d2p1:ID="7" d2p1:ownerName="Iasella" d2p1:lotBlock="436-M-250" xmlns:d2p1="http://joef.com/parcelDataset.xsd" />
+  <_parcel_ d2p1:ID="9" d2p1:ownerName="Hein" d2p1:lotBlock="436-L-114" xmlns:d2p1="http://joef.com/parcelDataset.xsd" />
+  <_parcel_ d2p1:ID="10" d2p1:ownerName="frauenholz" d2p1:lotBlock="436-L-118" xmlns:d2p1="http://joef.com/parcelDataset.xsd" />
+  <_parcel_ d2p1:ID="11" d2p1:ownerName="Chapel Gate" d2p1:lotBlock="436-S-10" xmlns:d2p1="http://joef.com/parcelDataset.xsd" />
+  <_vector_ d2p1:ID="1" d2p1:nsew1="s" d2p1:degrees="87" d2p1:minutes="33" d2p1:seconds="0" d2p1:nsew2="w" d2p1:length="577" xmlns:d2p1="http://joef.com/parcelDataset.xsd" />
+  <_vector_ d2p1:ID="2" d2p1:nsew1="n" d2p1:degrees="35" d2p1:minutes="41" d2p1:seconds="0" d2p1:nsew2="w" d2p1:length="355.64" xmlns:d2p1="http://joef.com/parcelDataset.xsd" />
+  <_vector_ d2p1:ID="3" d2p1:nsew1="n" d2p1:degrees="35" d2p1:minutes="41" d2p1:seconds="0" d2p1:nsew2="w" d2p1:length="1039.6" xmlns:d2p1="http://joef.com/parcelDataset.xsd" />
+  <_vector_ d2p1:ID="4" d2p1:nsew1="s" d2p1:degrees="60" d2p1:minutes="55" d2p1:seconds="0" d2p1:nsew2="e" d2p1:length="576.51" xmlns:d2p1="http://joef.com/parcelDataset.xsd" />
+  <_vector_ d2p1:ID="5" d2p1:nsew1="s" d2p1:degrees="66" d2p1:minutes="52" d2p1:seconds="0" d2p1:nsew2="e" d2p1:length="375.21" xmlns:d2p1="http://joef.com/parcelDataset.xsd" />
+  <_vector_ d2p1:ID="6" d2p1:nsew1="s" d2p1:degrees="2" d2p1:minutes="2" d2p1:seconds="0" d2p1:nsew2="w" d2p1:length="115.99" xmlns:d2p1="http://joef.com/parcelDataset.xsd" />
+  <_vector_ d2p1:ID="7" d2p1:nsew1="n" d2p1:degrees="88" d2p1:minutes="58" d2p1:seconds="1" d2p1:nsew2="e" d2p1:length="436.1" xmlns:d2p1="http://joef.com/parcelDataset.xsd" />
+  <_vector_ d2p1:ID="8" d2p1:nsew1="n" d2p1:degrees="89" d2p1:minutes="15" d2p1:seconds="0" d2p1:nsew2="e" d2p1:length="184.32" xmlns:d2p1="http://joef.com/parcelDataset.xsd" />
+  <_vector_ d2p1:ID="9" d2p1:nsew1="s" d2p1:degrees="28" d2p1:minutes="0" d2p1:seconds="0" d2p1:nsew2="w" d2p1:length="200" xmlns:d2p1="http://joef.com/parcelDataset.xsd" />
+  <_vector_ d2p1:ID="10" d2p1:nsew1="n" d2p1:degrees="89" d2p1:minutes="15" d2p1:seconds="0" d2p1:nsew2="e" d2p1:length="171.09" xmlns:d2p1="http://joef.com/parcelDataset.xsd" />
+  <_vector_ d2p1:ID="11" d2p1:nsew1="s" d2p1:degrees="28" d2p1:minutes="7" d2p1:seconds="0" d2p1:nsew2="w" d2p1:length="163.07" xmlns:d2p1="http://joef.com/parcelDataset.xsd" />
+  <_vector_ d2p1:ID="12" d2p1:nsew1="s" d2p1:degrees="25" d2p1:minutes="22" d2p1:seconds="0" d2p1:nsew2="w" d2p1:length="77" xmlns:d2p1="http://joef.com/parcelDataset.xsd" />
+  <_vector_ d2p1:ID="13" d2p1:nsew1="s" d2p1:degrees="19" d2p1:minutes="4" d2p1:seconds="0" d2p1:nsew2="w" d2p1:length="56.2" xmlns:d2p1="http://joef.com/parcelDataset.xsd" />
+  <_vector_ d2p1:ID="14" d2p1:nsew1="s" d2p1:degrees="9" d2p1:minutes="43" d2p1:seconds="0" d2p1:nsew2="w" d2p1:length="116" xmlns:d2p1="http://joef.com/parcelDataset.xsd" />
+  <_vector_ d2p1:ID="15" d2p1:nsew1="s" d2p1:degrees="55" d2p1:minutes="0" d2p1:seconds="0" d2p1:nsew2="w" d2p1:length="507.67" xmlns:d2p1="http://joef.com/parcelDataset.xsd" />
+</Dataset1>

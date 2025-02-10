@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfVector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <vector>
+    <visible_>true</visible_>
+    <bearing>
+      <ns>S</ns>
+      <deg>28</deg>
+      <min>0</min>
+      <sec>0</sec>
+      <ew>W</ew>
+    </bearing>
+    <displacement>200</displacement>
+    <start />
+    <groupName>436-L-20</groupName>
+    <visible>true</visible>
+  </vector>
+
+  <vector>
+    <visible_>true</visible_>
+    <bearing>
+      <ns>N</ns>
+      <deg>89</deg>
+      <min>15</min>
+      <sec>0</sec>
+      <ew>E</ew>
+    </bearing>
+    <displacement>171.09</displacement>
+    <start />
+    <groupName>436-L-20</groupName>
+    <visible>true</visible>
+  </vector>
+  
+  <vector>
+    <visible_>true</visible_>
+    <bearing>
+      <ns>S</ns>
+      <deg>28</deg>
+      <min>0</min>
+      <sec>0</sec>
+      <ew>W</ew>
+    </bearing>
+    <displacement>210.52</displacement>
+    <!--<displacement>410.52</displacement>-->
+    <start />
+    <groupName>436-L-20</groupName>
+    <visible>true</visible>
+  </vector>
+  
+  <vector>
+    <visible_>true</visible_>
+    <bearing>
+      <ns>S</ns>
+      <deg>4</deg>
+      <min>30</min>
+      <sec>0</sec>
+      <ew>W</ew>
+    </bearing>
+    <displacement>198</displacement>
+    <start />
+    <groupName>436-L-20</groupName>
+    <visible>true</visible>
+  </vector>
+  
+  <vector>
+    <visible_>true</visible_>
+    <bearing>
+      <ns>S</ns>
+      <deg>89</deg>
+      <min>45</min>
+      <sec>0</sec>
+      <ew>W</ew>
+    </bearing>
+    <displacement>577.5</displacement>
+    <start />
+    <groupName>436-L-20</groupName>
+    <visible>true</visible>
+  </vector>
+  
+  <vector>
+    <visible_>true</visible_>
+    <bearing>
+      <ns>N</ns>
+      <deg>37</deg>
+      <min>30</min>
+      <sec>0</sec>
+      <ew>W</ew>
+    </bearing>
+    <displacement>1395.24</displacement>
+    <start />
+    <groupName>436-L-20</groupName>
+    <visible>true</visible>
+  </vector>
+  
+  <vector>
+    <visible_>true</visible_>
+    <bearing>
+      <ns>S</ns>
+      <deg>59</deg>
+      <min>30</min>
+      <sec>0</sec>
+      <ew>E</ew>
+    </bearing>
+    <displacement>576.35</displacement>
+    <start />
+    <groupName>436-L-20</groupName>
+    <visible>true</visible>
+  </vector>
+  
+  <vector>
+    <visible_>true</visible_>
+    <bearing>
+      <ns>S</ns>
+      <deg>65</deg>
+      <min>30</min>
+      <sec>0</sec>
+      <ew>E</ew>
+    </bearing>
+    <displacement>374.55</displacement>
+    <start />
+    <groupName>436-L-20</groupName>
+    <visible>true</visible>
+  </vector>
+  
+  <vector>
+    <visible_>true</visible_>
+    <bearing>
+      <ns>S</ns>
+      <deg>3</deg>
+      <min>15</min>
+      <sec>0</sec>
+      <ew>W</ew>
+    </bearing>
+    <displacement>115.5</displacement>
+    <start />
+    <groupName>436-L-20</groupName>
+    <visible>true</visible>
+  </vector>
+
+  <vector>
+    <visible_>true</visible_>
+    <bearing>
+      <ns>N</ns>
+      <deg>88</deg>
+      <min>58</min>
+      <sec>0</sec>
+      <ew>E</ew>
+    </bearing>
+    <displacement>639.71</displacement>
+    <!--<displacement>811.8</displacement>-->
+    <start />
+    <groupName>436-L-20</groupName>
+    <visible>true</visible>
+  </vector>
+  <!--<vector>
+    <visible_>true</visible_>
+    <bearing>
+      <ns>N</ns>
+      <deg>89</deg>
+      <min>15</min>
+      <sec>0</sec>
+      <ew>E</ew>
+    </bearing>
+    <displacement>639.71</displacement>
+    --><!--<displacement>811.8</displacement>--><!--
+    <start />
+    <groupName>436-L-20</groupName>
+    <visible>true</visible>
+  </vector>-->
+
+</ArrayOfVector>

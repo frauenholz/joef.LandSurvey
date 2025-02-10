@@ -1,0 +1,207 @@
+﻿<UserControl x:Class="joef.landEngineering.SurveyDataControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:joef.landEngineering"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="800"
+             Name="userControl">
+    <UserControl.Resources>
+        <local:nsList x:Key="nsList"/>
+        <local:ewList x:Key="ewList"/>
+        
+        <DataTemplate x:Key="bearingEditTemplate">
+            <StackPanel Orientation="Horizontal">
+                <ComboBox ItemsSource="{StaticResource nsList}"
+						    SelectedItem="{Binding bearing.ns, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+							Margin="0,0,8,0"
+                            ToolTip="{Binding bearing.ns}"/>
+
+                <TextBox Text="{Binding bearing.deg, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                <!--Minimum="0" Maximum="59"-->
+                <TextBlock Margin="0,0,8,0" Text="°" FontSize="16"/>
+
+                <TextBox Text="{Binding bearing.min, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                <!--Minimum="0" Maximum="59"-->
+                <TextBlock Margin="0,0,8,0" Text="′" FontSize="16"/>
+
+                <TextBox Text="{Binding bearing.sec, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="64" />
+                <!--Minimum="0" Maximum="59.999" DecimalPlaces="3"-->
+                <TextBlock Margin="0,0,8,0" Text="″" FontSize="16"/>
+
+                <ComboBox ItemsSource="{StaticResource ewList}"
+					        SelectedItem="{Binding bearing.ew, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+            </StackPanel>
+        </DataTemplate>
+        
+        <local:bearingDegreesConverter x:Key="bearingDegreesConverter"/>
+       
+    </UserControl.Resources>
+    <TabControl>
+        <TabItem Header="parcel">
+            <Grid x:Name="LayoutRoot">
+                <Grid.Resources>
+                    <local:nsList x:Key="nsList"/>
+                    <local:ewList x:Key="ewList"/>
+                </Grid.Resources>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="32"/>
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Menu Grid.Column="0">
+                        <MenuItem Header="file"
+			            FontSize="12">
+                            <MenuItem Header="load from file" Click="loadFromFileButton_Click"/>
+                            <MenuItem Header="save to file" Click="saveToFileButton_Click"/>
+                            <CheckBox x:Name="saveOnExitCheckBox"
+			                    Content="auto save on exit"
+			                    IsChecked="{Binding saveOnExit, Mode=TwoWay}"/>
+                        </MenuItem>
+
+                        <MenuItem Header="options"
+			    FontSize="12">
+                            <CheckBox x:Name="dropShadow"
+			        Content="show shadow"
+			        IsChecked="{Binding showDropShadow, Mode=TwoWay}"/>
+                        </MenuItem>
+                    </Menu>
+                    <Slider Grid.Column="1"
+                    ValueChanged="Slider_ValueChanged"
+		            Minimum="0.1" Maximum="2"
+		            Value="1"
+                    Margin="16,0"
+                    TickPlacement="Both"
+                    TickFrequency="0.1"
+                    MaxWidth="256"
+                    />
+                </Grid>
+
+
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Grid.Column="0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <StackPanel Grid.Row="0"
+                                    Orientation="Horizontal">
+                            <Button x:Name="addButton" Content="+" FontSize="13.333" Click="addButton_Click" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="42" ToolTipService.ToolTip="add item" Margin="8,0"
+			                        IsEnabled="{Binding addEnabled}"/>
+                            <Button x:Name="deleteButton" Content="-" FontSize="13.333" Click="deleteButton_Click" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="42" ToolTipService.ToolTip="delete item" Margin="0,0,8,0"
+			                        IsEnabled="{Binding removeEnabled}"/>
+
+                            <Button x:Name="moveUpButton" Content="↑" FontSize="13.333" Width="42" Click="moveUpButton_Click" HorizontalAlignment="Left" d:LayoutOverrides="Width" VerticalAlignment="Bottom" ToolTipService.ToolTip="move item up" Margin="0,0,8,0"
+			                        IsEnabled="{Binding upEnabled}"/>
+                            <Button x:Name="moveDownButton" Content="↓" FontSize="13.333" Width="42" Click="moveDownButton_Click" VerticalAlignment="Bottom" ToolTipService.ToolTip="move item down" Margin="0,0,8,0"
+			                        IsEnabled="{Binding downEnabled}"/>
+
+                            <Button x:Name="clearCellButton" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="72" Content="clear cell" FontSize="13.333" Click="clearCellButton_Click" ToolTipService.ToolTip="clear contents of the current cell" Margin="0,0,8,0"/>
+
+                        </StackPanel>
+
+                        <DataGrid Grid.Row="1"
+                                  ItemsSource="{Binding CollectionView, ElementName=userControl}"
+                                  x:Name="dataGrid"
+			                      AutoGenerateColumns="False" 
+                                  SelectionMode="Single"
+                                  IsSynchronizedWithCurrentItem="True">
+                            <DataGrid.Columns>
+
+                                <DataGridTextColumn Binding="{Binding displacement}">
+                                    <DataGridTextColumn.Header>
+                                        <TextBlock Text="length ft."
+                                                    ToolTip="displacement (feet)"/>
+                                    </DataGridTextColumn.Header>
+                                </DataGridTextColumn>
+
+                                <DataGridTemplateColumn 
+                                    CellEditingTemplate="{StaticResource bearingEditTemplate}">
+                                    <DataGridTemplateColumn.Header>
+                                        <TextBlock Text="bearing"
+                                                    ToolTip="NSEW degrees° minutes′ seconds″ NSEW"/>
+                                    </DataGridTemplateColumn.Header>
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <TextBlock  Text="{Binding bearing.asString}"/>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+
+
+                                <DataGridTextColumn Header="parcel"
+					                Binding="{Binding groupName}"/>
+
+                                <!--<DataGridTemplateColumn
+  			                Header="follows">
+  			                <DataGridTemplateColumn.CellTemplate>
+  			                <DataTemplate>
+                            <ComboBox
+                            Loaded="followsComboBox_Loaded"
+                            DisplayMemberPath="asString"
+                            SelectedItem="{Binding follows, Mode=TwoWay}"
+			                        />
+  			                </DataTemplate>
+  			                </DataGridTemplateColumn.CellTemplate>
+  		                </DataGridTemplateColumn>-->
+
+                                <DataGridCheckBoxColumn Header="visible"
+					                    Binding="{Binding visible}"/>
+
+                                <DataGridTextColumn Header="cartisian ∠"
+                                                    Binding="{Binding bearing.CartesianDegrees}"/>
+
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </Grid>
+
+                    <ScrollViewer Grid.Column="1" Background="#FFFBFBF2">
+                        <local:parcelControl x:Name="parcelControl" RenderTransformOrigin="0.5,0.5">
+                            <local:parcelControl.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform/>
+                                </TransformGroup>
+                            </local:parcelControl.RenderTransform>
+                        </local:parcelControl>
+                    </ScrollViewer>
+                </Grid>
+
+
+                <StatusBar Grid.Row="2">
+                    <TextBlock Text="area sq ft" 
+                       Margin="8,0"/>
+                    <TextBlock Text="{Binding Area, ElementName=userControl}" 
+                       Margin="8,0"/>
+                    <Separator/>
+                    <TextBlock Text="∠ before" 
+                       Margin="8,0"/>
+                    <TextBlock Text="{Binding AngleBefore, ElementName=userControl}" 
+                       Margin="8,0"/>
+                    <Separator/>
+                    <TextBlock Text="∠ after" 
+                       Margin="8,0"/>
+                    <TextBlock Text="{Binding AngleAfter, ElementName=userControl}" 
+                       Margin="8,0"/>
+                </StatusBar>
+
+            </Grid>
+        </TabItem>
+        <TabItem Header="calc">
+            <Grid>
+                
+            </Grid>
+        </TabItem>
+    </TabControl>
+</UserControl>

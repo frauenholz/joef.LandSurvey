@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LandArea", "LandArea\LandArea.fsproj", "{55A6AA5E-415B-4B9A-A3A3-481004ADAC88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LandSurveyLib", "LandSurveyLib\LandSurveyLib.csproj", "{8C042569-1972-45BB-839A-97DDB550EBD5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sampleData", "sampleData", "{5E72CCC9-D1DC-48E8-B63F-7139F3280D88}"
+	ProjectSection(SolutionItems) = preProject
+		landArea_parcelData\parcelDescription 100-110 paralell test.xml = landArea_parcelData\parcelDescription 100-110 paralell test.xml
+		landArea_parcelData\parcelDescription 436-G-50.xml = landArea_parcelData\parcelDescription 436-G-50.xml
+		landArea_parcelData\parcelDescription 436-L-100 - Copy.xml = landArea_parcelData\parcelDescription 436-L-100 - Copy.xml
+		landArea_parcelData\parcelDescription 436-L-100.xml = landArea_parcelData\parcelDescription 436-L-100.xml
+		landArea_parcelData\parcelDescription 436-L-110.xml = landArea_parcelData\parcelDescription 436-L-110.xml
+		landArea_parcelData\parcelDescription 436-L-118 without arc.xml = landArea_parcelData\parcelDescription 436-L-118 without arc.xml
+		landArea_parcelData\parcelDescription 436-L-20 future.xml = landArea_parcelData\parcelDescription 436-L-20 future.xml
+		landArea_parcelData\parcelDescription 436-L-20.xml = landArea_parcelData\parcelDescription 436-L-20.xml
+		landArea_parcelData\parcelDescription 436-R-150.xml = landArea_parcelData\parcelDescription 436-R-150.xml
+		landArea_parcelData\parcelDescription new.xml = landArea_parcelData\parcelDescription new.xml
+		landArea_parcelData\parcelDescription.xml = landArea_parcelData\parcelDescription.xml
+		landArea_parcelData\parcels.xml = landArea_parcelData\parcels.xml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LandSurveyApp", "LandSurveyApp\LandSurveyApp.csproj", "{840620C7-3E0D-4AE8-9E39-FB2AF3F76F31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LandSurveyTest", "LandSurveyTest\LandSurveyTest.csproj", "{2A848811-0480-41F9-A085-08971C89C4B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55A6AA5E-415B-4B9A-A3A3-481004ADAC88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55A6AA5E-415B-4B9A-A3A3-481004ADAC88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55A6AA5E-415B-4B9A-A3A3-481004ADAC88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55A6AA5E-415B-4B9A-A3A3-481004ADAC88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C042569-1972-45BB-839A-97DDB550EBD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C042569-1972-45BB-839A-97DDB550EBD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C042569-1972-45BB-839A-97DDB550EBD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C042569-1972-45BB-839A-97DDB550EBD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{840620C7-3E0D-4AE8-9E39-FB2AF3F76F31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{840620C7-3E0D-4AE8-9E39-FB2AF3F76F31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{840620C7-3E0D-4AE8-9E39-FB2AF3F76F31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{840620C7-3E0D-4AE8-9E39-FB2AF3F76F31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A848811-0480-41F9-A085-08971C89C4B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A848811-0480-41F9-A085-08971C89C4B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A848811-0480-41F9-A085-08971C89C4B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A848811-0480-41F9-A085-08971C89C4B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

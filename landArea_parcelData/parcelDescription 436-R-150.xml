@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfVector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <vector>
+    <visible_>true</visible_>
+    <bearing>
+      <ns>N</ns>
+      <deg>87</deg>
+      <min>33</min>
+      <sec>0</sec>
+      <ew>W</ew>
+    </bearing>
+    <displacement>523</displacement>
+    <start />
+    <groupName>tt</groupName>
+    <visible>true</visible>
+  </vector>
+
+  <vector>
+    <visible_>true</visible_>
+    <bearing>
+      <ns>N</ns>
+      <deg>35</deg>
+      <min>41</min>
+      <sec>0</sec>
+      <ew>W</ew>
+    </bearing>
+    <displacement>355.64</displacement>
+    <start />
+    <groupName>tt</groupName>
+    <visible>true</visible>
+  </vector>
+
+  <vector>
+    <visible_>true</visible_>
+    <bearing>
+      <ns>S</ns>
+      <deg>55</deg>
+      <min>0</min>
+      <sec>0</sec>
+      <ew>W</ew>
+    </bearing>
+    <displacement>507.67</displacement>
+    <start />
+    <groupName>tt</groupName>
+    <visible>true</visible>
+  </vector>
+  <vector>
+    <visible_>true</visible_>
+    <bearing>
+      <ns>S</ns>
+      <deg>23</deg>
+      <min>29</min>
+      <sec>0</sec>
+      <ew>E</ew>
+    </bearing>
+    <displacement>242.5</displacement>
+    <start />
+    <groupName>tt</groupName>
+    <visible>true</visible>
+  </vector>
+  <vector>
+    <visible_>true</visible_>
+    <bearing>
+      <ns>S</ns>
+      <deg>42</deg>
+      <min>59</min>
+      <sec>0</sec>
+      <ew>E</ew>
+    </bearing>
+    <displacement>265.55</displacement>
+    <start />
+    <groupName>tt</groupName>
+    <visible>true</visible>
+  </vector>
+  <vector>
+    <visible_>true</visible_>
+    <bearing>
+      <ns>N</ns>
+      <deg>56</deg>
+      <min>4</min>
+      <sec>30</sec>
+      <ew>E</ew>
+    </bearing>
+    <displacement>426.75</displacement>
+    <start />
+    <groupName>tt</groupName>
+    <visible>true</visible>
+  </vector>
+  <vector>
+    <visible_>true</visible_>
+    <bearing>
+      <ns>S</ns>
+      <deg>54</deg>
+      <min>46</min>
+      <sec>10</sec>
+      <ew>E</ew>
+    </bearing>
+    <displacement>278.4</displacement>
+    <start />
+    <groupName>tt</groupName>
+    <visible>true</visible>
+  </vector>
+  <vector>
+    <visible_>true</visible_>
+    <bearing>
+      <ns>S</ns>
+      <deg>19</deg>
+      <min>11</min>
+      <sec>50</sec>
+      <ew>W</ew>
+    </bearing>
+    <displacement>64.07</displacement>
+    <start />
+    <groupName>tt</groupName>
+    <visible>true</visible>
+  </vector>
+  <vector>
+    <visible_>true</visible_>
+    <bearing>
+      <ns>S</ns>
+      <deg>22</deg>
+      <min>19</min>
+      <sec>50</sec>
+      <ew>W</ew>
+    </bearing>
+    <displacement>161.06</displacement>
+    <start />
+    <groupName>tt</groupName>
+    <visible>true</visible>
+  </vector>
+  <vector>
+    <visible_>true</visible_>
+    <bearing>
+      <ns>S</ns>
+      <deg>9</deg>
+      <min>4</min>
+      <sec>55</sec>
+      <ew>W</ew>
+    </bearing>
+    <displacement>89.5</displacement>
+    <start />
+    <groupName>tt</groupName>
+    <visible>true</visible>
+  </vector>
+  <vector>
+    <visible_>true</visible_>
+    <bearing>
+      <ns>S</ns>
+      <deg>45</deg>
+      <min>56</min>
+      <sec>45</sec>
+      <ew>E</ew>
+    </bearing>
+    <displacement>72.84</displacement>
+    <start />
+    <groupName>tt</groupName>
+    <visible>true</visible>
+  </vector>
+  <vector>
+    <visible_>true</visible_>
+    <bearing>
+      <ns>N</ns>
+      <deg>41</deg>
+      <min>44</min>
+      <sec>0</sec>
+      <ew>E</ew>
+    </bearing>
+    <displacement>96.39</displacement>
+    <start />
+    <groupName>tt</groupName>
+    <visible>true</visible>
+  </vector>
+  <vector>
+    <visible_>true</visible_>
+    <bearing>
+      <ns>N</ns>
+      <deg>37</deg>
+      <min>10</min>
+      <sec>15</sec>
+      <ew>E</ew>
+    </bearing>
+    <displacement>139.69</displacement>
+    <start />
+    <groupName>tt</groupName>
+    <visible>true</visible>
+  </vector>
+  <vector>
+    <visible_>true</visible_>
+    <bearing>
+      <ns>N</ns>
+      <deg>34</deg>
+      <min>35</min>
+      <sec>0</sec>
+      <ew>E</ew>
+    </bearing>
+    <displacement>136.94</displacement>
+    <start />
+    <groupName>tt</groupName>
+    <visible>true</visible>
+  </vector>
+  <vector>
+    <visible_>true</visible_>
+    <bearing>
+      <ns>N</ns>
+      <deg>30</deg>
+      <min>32</min>
+      <sec>45</sec>
+      <ew>E</ew>
+    </bearing>
+    <displacement>126.92</displacement>
+    <start />
+    <groupName>tt</groupName>
+    <visible>true</visible>
+  </vector>
+  <vector>
+    <visible_>true</visible_>
+    <bearing>
+      <ns>N</ns>
+      <deg>16</deg>
+      <min>18</min>
+      <sec>0</sec>
+      <ew>E</ew>
+    </bearing>
+    <displacement>97.75</displacement>
+    <start />
+    <groupName>tt</groupName>
+    <visible>true</visible>
+  </vector>
+  <vector>
+    <visible_>true</visible_>
+    <bearing>
+      <ns>N</ns>
+      <deg>4</deg>
+      <min>13</min>
+      <sec>0</sec>
+      <ew>E</ew>
+    </bearing>
+    <displacement>168.94</displacement>
+    <start />
+    <groupName>tt</groupName>
+    <visible>true</visible>
+  </vector>
+
+ <!--
+north 87° 33' 0" west • 523
+north 35° 41' 0" west • 355.64
+south 55° 0' 0" west • 507.67
+south 23° 29' 0" east • 242.5
+south 42° 59' 0" east • 265.55
+north 56° 4' 30" east • 426.75
+south 54° 46' 10" east • 278.4
+south 19° 11' 50" west • 64.07
+south 22° 19' 50" west • 161.06
+south 9° 4' 55" west • 89.5
+south 45° 56' 45" east • 72.84
+north 41° 44' 0" east • 96.39
+north 37° 10' 15" east • 139.69
+north 34° 35' 0" east • 136.94
+north 30° 32' 45" east • 126.92
+north 16° 18' 0" east • 97.75
+north 4° 13' 0" east • 168.94
+
+
+1) CW, area:73151.45', 1.68 | a:523, b:355.64, c:793.55 | 1:87.55, 2:35.68, 3:66.91 | A:31.23, B:20.64, C:128.13
+
+2) CCW, area:170992.07', 3.93 | a:793.55, b:507.67, c:1146 | 1:66.91, 2:125, 3:89 | A:36, B:22.09, C:121.91
+
+3) CCW, area:126456.5', 2.9 | a:1146, b:242.5, c:1068.54 | 1:89, 2:203.48, 3:100.92 | A:102.57, B:11.92, C:65.51
+
+4) CCW, area:120230.17', 2.76 | a:1068.54, b:265.55, c:954.46 | 1:100.92, 2:222.98, 3:114.55 | A:108.43, B:13.64, C:57.93
+
+5) CW, area:32895.42', 0.76 | a:954.46, b:426.75, c:537.75 | 1:114.55, 2:303.85, 3:107.19 | A:163.34, B:7.36, C:9.3
+
+6) CCW, area:59303.84', 1.36 | a:537.75, b:278.4, c:428.93 | 1:107.19, 2:234.79, 3:138.14 | A:96.66, B:30.95, C:52.4
+
+7) CCW, area:5267.73', 0.12 | a:428.93, b:64.07, c:488.72 | 1:138.14, 2:160.68, 3:141.02 | A:19.66, B:2.88, C:157.46
+
+8) CCW, area:11196.49', 0.26 | a:488.72, b:161.06, c:644.75 | 1:141.02, 2:157.54, 3:145.09 | A:12.45, B:4.08, C:163.47
+
+9) CCW, area:12507.37', 0.29 | a:644.75, b:89.5, c:726.44 | 1:145.09, 2:170.78, 3:148.15 | A:22.63, B:3.06, C:154.31
+
+10) CCW, area:25869.87', 0.59 | a:726.44, b:72.84, c:745.12 | 1:148.15, 2:226.06, 3:153.64 | A:72.42, B:5.49, C:102.09
+
+11) CCW, area:9518.98', 0.22 | a:745.12, b:96.39, c:652.68 | 1:153.64, 2:318.27, 3:155.88 | A:162.39, B:2.24, C:15.37
+
+12) CCW, area:10324.22', 0.24 | a:652.68, b:139.69, c:517.58 | 1:155.88, 2:322.79, 3:159.39 | A:163.41, B:3.5, C:13.09
+
+13) CCW, area:8554.88', 0.2 | a:517.58, b:136.94, c:386.11 | 1:159.39, 2:325.42, 3:164.3 | A:161.12, B:4.91, C:13.97
+
+14) CCW, area:6323.34', 0.15 | a:386.11, b:126.92, c:265.52 | 1:164.3, 2:329.34, 3:171.38 | A:157.96, B:7.09, C:14.96
+
+15) CCW, area:1734.97', 0.04 | a:265.52, b:97.75, c:169.15 | 1:171.38, 2:343.7, 3:175.81 | A:167.89, B:4.43, C:7.68
+
+16) CCW, area:7.67', 0 | a:169.15, b:168.94, c:0.23 | 1:175.81, 2:355.78, 3:198.97 | A:156.82, B:23.15, C:0.03
+
+
+areaCCW:568288.09', 13.05
+areaCW: 106046.87', 2.43
+area:   462241.22', 10.6116
+  -->
+
+</ArrayOfVector>

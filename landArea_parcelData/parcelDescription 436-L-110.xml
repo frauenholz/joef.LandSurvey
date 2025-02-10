@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<ArrayOfVector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <vector>
+    <visible_>true</visible_>
+    <bearing>
+      <ns>S</ns>
+      <deg>88</deg>
+      <min>58</min>
+      <sec>0</sec>
+      <ew>W</ew>
+    </bearing>
+    <displacement>355.41</displacement>
+    <start />
+    <groupName>436-L-110</groupName>
+    <visible>true</visible>
+  </vector>
+  <vector>
+    <visible_>true</visible_>
+    <bearing>
+      <ns>N</ns>
+      <deg>23</deg>
+      <min>21</min>
+      <sec>10</sec>
+      <ew>E</ew>
+    </bearing>
+    <displacement>101.35</displacement>
+    <start />
+    <groupName>436-L-110</groupName>
+    <visible>true</visible>
+  </vector>
+  <vector>
+    <visible_>true</visible_>
+    <bearing>
+      <ns>N</ns>
+      <deg>89</deg>
+      <min>34</min>
+      <sec>50</sec>
+      <ew>E</ew>
+    </bearing>
+    <displacement>272.31</displacement>
+    <start />
+    <groupName>436-L-110</groupName>
+    <visible>true</visible>
+  </vector>
+  <vector>
+    <visible_>true</visible_>
+    <bearing>
+      <ns>S</ns>
+      <deg>72</deg>
+      <min>57</min>
+      <sec>20</sec>
+      <ew>E</ew>
+    </bearing>
+    <displacement>22.14</displacement>
+    <start />
+    <groupName>436-L-110</groupName>
+    <visible>true</visible>
+  </vector>
+  <vector>
+    <visible_>true</visible_>
+    <bearing>
+      <ns>S</ns>
+      <deg>83</deg>
+      <min>12</min>
+      <sec>0</sec>
+      <ew>E</ew>
+    </bearing>
+    <displacement>63.43</displacement>
+    <start />
+    <groupName>436-L-110</groupName>
+    <visible>true</visible>
+  </vector>
+  <vector>
+    <visible_>true</visible_>
+    <bearing>
+      <ns>S</ns>
+      <deg>28</deg>
+      <min>56</min>
+      <sec>50</sec>
+      <ew>W</ew>
+    </bearing>
+    <displacement>85.29</displacement>
+    <start />
+    <groupName>436-L-110</groupName>
+    <visible>true</visible>
+  </vector>
+</ArrayOfVector>
+
+<!--south 88° 58' 0" west • 355.41        (91.0333333333333°, SW, 2)
+north 23° 21' 10" east • 101.35        (336.622222222222°, NE, 4)
+north 89° 34' 50" east • 272.31        (270.294444444444°, NE, 4)
+south 72° 57' 20" east • 22.14        (253.005555555556°, SE, 3)
+south 83° 12' 0" east • 63.43        (263.2°, SE, 3)
+south 28° 56' 50" west • 85.29        (150.927777777778°, SW, 2)
+
+
+1) CW, area:16400.34', 0.38 | a:355.41, b:101.35, c:326.83 | 1:91.03, 2:336.62, 3:74.63 | A:98.01, B:16.4, C:65.59
+
+2) CW, area:12014.17', 0.28 | a:326.83, b:272.31, c:97.89 | 1:74.63, 2:270.29, 3:25.95 | A:115.65, B:48.68, C:15.66
+
+3) CW, area:793.25', 0.02 | a:97.89, b:22.14, c:84.38 | 1:25.95, 2:253.01, 3:14.87 | A:121.87, B:11.07, C:47.06
+
+4) CW, area:2486.8', 0.06 | a:84.38, b:63.43, c:84.79 | 1:14.87, 2:263.2, 3:-29.17 | A:67.63, B:44.04, C:68.33
+
+5) reverse, area:3560.99', 0.08 | a:84.79, b:85.29, c:109.33 | 1:-29.17, 2:150.93, 3:8646.88 | A:49.8, B:50.2, C:-1000
+
+
+areaCCW:0', 0
+areaCW: 31694.55', 0.73
+area:   31694.55', 0.7276-->

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfVector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <vector>
+    <visible_>true</visible_>
+    <bearing>
+      <ns>S</ns>
+      <deg>28</deg>
+      <min>0</min>
+      <sec>0</sec>
+      <ew>W</ew>
+    </bearing>
+    <displacement>200</displacement>
+    <start />
+    <groupName>436-L-100</groupName>
+    <visible>true</visible>
+  </vector>
+  <vector>
+    <visible_>true</visible_>
+    <bearing>
+      <ns>S</ns>
+      <deg>89</deg>
+      <min>15</min>
+      <sec>0</sec>
+      <ew>W</ew>
+    </bearing>
+    <displacement>171.09</displacement>
+    <start />
+    <groupName>436-L-100</groupName>
+    <visible>true</visible>
+  </vector>
+  <vector>
+    <visible_>true</visible_>
+    <bearing>
+      <ns>N</ns>
+      <deg>28</deg>
+      <min>0</min>
+      <sec>0</sec>
+      <ew>E</ew>
+    </bearing>
+    <displacement>200</displacement>
+    <start />
+    <groupName>436-L-100</groupName>
+    <visible>true</visible>
+  </vector>
+  <vector>
+    <visible_>true</visible_>
+    <bearing>
+      <ns>N</ns>
+      <deg>89</deg>
+      <min>15</min>
+      <sec>0</sec>
+      <ew>E</ew>
+    </bearing>
+    <displacement>171.09</displacement>
+    <start />
+    <groupName>436-L-100</groupName>
+    <visible>true</visible>
+  </vector>
+</ArrayOfVector>

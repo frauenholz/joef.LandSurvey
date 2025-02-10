@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<ArrayOfVector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <vector>
+    <visible_>true</visible_>
+    <bearing>
+      <ns>S</ns>
+      <deg>45</deg>
+      <min>0</min>
+      <sec>0</sec>
+      <ew>E</ew>
+      <CartesianDegrees>225</CartesianDegrees>
+    </bearing>
+    <displacement>100</displacement>
+    <groupName>a</groupName>
+    <visible>true</visible>
+  </vector>
+  <vector>
+    <visible_>true</visible_>
+    <bearing>
+      <ns>N</ns>
+      <deg>33</deg>
+      <min>0</min>
+      <sec>0</sec>
+      <ew>none</ew>
+      <CartesianDegrees>327</CartesianDegrees>
+    </bearing>
+    <displacement>22</displacement>
+    <groupName>a</groupName>
+    <visible>true</visible>
+  </vector>
+</ArrayOfVector>
